@@ -1,0 +1,4 @@
+.header-hero__title {
+  color: var(--title-color);
+  text-decoration: underline;
+}

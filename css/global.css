@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --title-color: #272727;
+  --button-primary-color: #1c4c97;
+  font-family: "Nunito", serif;
+  scroll-behavior: smooth;
+}
+
+header {
+  background-color: blueviolet;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+h1,
+h2 {
+  color: var(--title-color);
+  font-family: "Bebas Neue", serif;
+}
